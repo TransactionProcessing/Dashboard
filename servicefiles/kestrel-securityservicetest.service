@@ -1,0 +1,14 @@
+[Unit]
+Description=Security Service
+
+[Service]
+WorkingDirectory=/home/txnproc/securityservicetest
+ExecStart=/usr/bin/dotnet /home/txnproc/securityservicetest/SecurityService.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-securityservicetest
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
