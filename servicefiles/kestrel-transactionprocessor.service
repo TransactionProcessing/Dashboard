@@ -1,0 +1,14 @@
+[Unit]
+Description=Transaction Processor
+
+[Service]
+WorkingDirectory=/home/txnproc/transactionprocessor
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessor/TransactionProcessor.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-transactionprocessor
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
