@@ -1,0 +1,14 @@
+[Unit]
+Description=Subscription Service Host
+
+[Service]
+WorkingDirectory=/home/txnproc/subscriptionservicehost
+ExecStart=/usr/bin/dotnet /home/txnproc/subscriptionservicehost/SubscriptionServiceHost.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-subscriptionservicehost
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
