@@ -1,0 +1,14 @@
+[Unit]
+Description=Test Hosts
+
+[Service]
+WorkingDirectory=/home/txnproc/testhosts
+ExecStart=/usr/bin/dotnet /home/txnproc/testhosts/TestHosts.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-testhosts
+User=www-data
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
