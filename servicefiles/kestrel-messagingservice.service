@@ -1,0 +1,14 @@
+[Unit]
+Description=Messaging
+
+[Service]
+WorkingDirectory=/home/txnproc/messagingservice
+ExecStart=/usr/bin/dotnet /home/txnproc/messagingservice/MessagingService.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-messagingservice
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
