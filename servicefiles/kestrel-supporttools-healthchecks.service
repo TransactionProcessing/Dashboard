@@ -5,7 +5,7 @@ Description=Support Tools Health Checks
 WorkingDirectory=/home/txnproc/supporttools/healthcheckui
 ExecStart=/usr/bin/dotnet /home/txnproc/supporttools/healthcheckui/TransactionProcessor.HealthChecksUI.dll
 Restart=always
-RestartSec=10                                          # Restart service after 10 seconds if dotnet service crashes
+RestartSec=10                                         
 SyslogIdentifier=dotnet-supporttools-healthcheckui
 User=txnproc
 Environment=ASPNETCORE_ENVIRONMENT=Production
