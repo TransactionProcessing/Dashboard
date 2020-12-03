@@ -1,0 +1,14 @@
+[Unit]
+Description=Voucher Management
+
+[Service]
+WorkingDirectory=/home/txnproc/vouchermanagement
+ExecStart=/usr/bin/dotnet /home/txnproc/vouchermanagement/VoucherManagement.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-vouchermanagement
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
