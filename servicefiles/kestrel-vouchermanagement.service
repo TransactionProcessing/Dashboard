@@ -2,8 +2,8 @@
 Description=Voucher Management
 
 [Service]
-WorkingDirectory=/home/txnproc/vouchermanagement
-ExecStart=/usr/bin/dotnet /home/txnproc/vouchermanagement/VoucherManagement.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/vouchermanagement
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/vouchermanagement/VoucherManagement.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-vouchermanagement

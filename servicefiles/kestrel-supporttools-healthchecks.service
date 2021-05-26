@@ -2,8 +2,8 @@
 Description=Support Tools Health Checks
 
 [Service]
-WorkingDirectory=/home/txnproc/supporttools/healthcheckui
-ExecStart=/usr/bin/dotnet /home/txnproc/supporttools/healthcheckui/TransactionProcessor.HealthChecksUI.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/supporttools/healthcheckui
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/supporttools/healthcheckui/TransactionProcessor.HealthChecksUI.dll
 Restart=always
 RestartSec=10                                         
 SyslogIdentifier=dotnet-supporttools-healthcheckui

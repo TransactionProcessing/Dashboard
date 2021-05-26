@@ -2,8 +2,8 @@
 Description=Transaction Processor ACL
 
 [Service]
-WorkingDirectory=/home/txnproc/transactionprocessoracl
-ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessoracl/TransactionProcessorACL.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/transactionprocessoracl
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/transactionprocessoracl/TransactionProcessorACL.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-transactionprocessoracl

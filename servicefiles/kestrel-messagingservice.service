@@ -2,8 +2,8 @@
 Description=Messaging
 
 [Service]
-WorkingDirectory=/home/txnproc/messagingservice
-ExecStart=/usr/bin/dotnet /home/txnproc/messagingservice/MessagingService.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/messagingservice
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/messagingservice/MessagingService.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-messagingservice

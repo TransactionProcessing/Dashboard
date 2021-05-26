@@ -2,8 +2,8 @@
 Description=Estate Administration  UI
 
 [Service]
-WorkingDirectory=/home/txnproc/estateadministrationui
-ExecStart=/usr/bin/dotnet /home/txnproc/estateadministrationui/EstateAdministrationUI.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/estateadministrationui
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/estateadministrationui/EstateAdministrationUI.dll
 Restart=always
 RestartSec=10                                          # Restart service after 10 seconds if dotnet service crashes
 SyslogIdentifier=dotnet-estateadministrationui

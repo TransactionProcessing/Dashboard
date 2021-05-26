@@ -2,8 +2,8 @@
 Description=Security Service
 
 [Service]
-WorkingDirectory=/home/txnproc/securityservice
-ExecStart=/usr/bin/dotnet /home/txnproc/securityservice/SecurityService.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/securityservice
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/securityservice/SecurityService.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-securityservice

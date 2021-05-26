@@ -2,8 +2,8 @@
 Description=Transaction Processor
 
 [Service]
-WorkingDirectory=/home/txnproc/transactionprocessor
-ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessor/TransactionProcessor.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/transactionprocessor
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/transactionprocessor/TransactionProcessor.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-transactionprocessor

@@ -2,8 +2,8 @@
 Description=Estate Management
 
 [Service]
-WorkingDirectory=/home/txnproc/estatemanagement
-ExecStart=/usr/bin/dotnet /home/txnproc/estatemanagement/EstateManagement.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/estatemanagement
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/estatemanagement/EstateManagement.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-estatemanagement

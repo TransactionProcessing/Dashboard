@@ -2,8 +2,8 @@
 Description=Estate Reporting
 
 [Service]
-WorkingDirectory=/home/txnproc/estatereporting
-ExecStart=/usr/bin/dotnet /home/txnproc/estatereporting/EstateReporting.dll
+WorkingDirectory=/home/txnproc/transactionprocessing/estatereporting
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/estatereporting/EstateReporting.dll
 Restart=always
 RestartSec=10
 SyslogIdentifier=dotnet-estatereporting

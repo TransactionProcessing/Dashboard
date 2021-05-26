@@ -1,0 +1,14 @@
+[Unit]
+Description=File Processor
+
+[Service]
+WorkingDirectory=/home/txnproc/transactionprocessing/fileprocessor
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/fileprocessor/FileProcessor.dll
+Restart=always
+RestartSec=10                                          # Restart service after 10 seconds if dotnet service crashes
+SyslogIdentifier=dotnet-fileprocessor
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
