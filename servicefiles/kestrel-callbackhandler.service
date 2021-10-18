@@ -1,0 +1,14 @@
+[Unit]
+Description=Callback Handler
+
+[Service]
+WorkingDirectory=/home/txnproc/transactionprocessing/callbackhandler
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/callbackhandler/CallbackHandler.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-callbackhandler
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
