@@ -1,0 +1,14 @@
+[Unit]
+Description=Voucher Management ACL
+
+[Service]
+WorkingDirectory=/home/txnproc/transactionprocessing/vouchermanagementacl
+ExecStart=/usr/bin/dotnet /home/txnproc/transactionprocessing/vouchermanagementacl/VoucherManagementACL.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-vouchermanagementacl
+User=txnproc
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
