@@ -30,12 +30,6 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | **Estate Admin UI** | ![LatestTag](https://img.shields.io/github/v/tag/TransactionProcessing/EstateAdministrationUI)| [![Last Nightly Build Status Badge](https://github.com/TransactionProcessing/EstateAdministrationUI/workflows/Nightly%20Build/badge.svg)](https://github.com/TransactionProcessing/EstateAdministrationUI/actions?query=workflow%3A%22Nightly+Build%22)|[![codecov](https://codecov.io/gh/TransactionProcessing/EstateAdministrationUI/branch/master/graph/badge.svg?token=AO1ppJ2Lzq)](https://codecov.io/gh/TransactionProcessing/EstateAdministrationUI) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TransactionProcessing_EstateAdministrationUI&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=TransactionProcessing_EstateAdministrationUI) | ![Issues](https://img.shields.io/github/issues/TransactionProcessing/EstateAdministrationUI) | ![PullRequests](https://img.shields.io/github/issues-pr/TransactionProcessing/EstateAdministrationUI) |[![Repository](https://img.shields.io/badge/github-repo-green)](https://github.com/TransactionProcessing/EstateAdministrationUI)
 
-## Reporting Applications
-
-|Repository |Latest Tag|Nightly Build|Code Status |Issues|Pull Requests||
-| --- | --- | --- | --- | --- | --- | --- |
-| **Power BI** | ![LatestTag](https://img.shields.io/github/v/tag/TransactionProcessing/PowerBIReporting)| [![Last Nightly Build Status Badge](https://github.com/TransactionProcessing/PowerBIReporting/workflows/Nightly%20Build/badge.svg)](https://github.com/TransactionProcessing/PowerBIReporting/actions?query=workflow%3A%22Nightly+Build%22)|[![codecov](https://codecov.io/gh/TransactionProcessing/PowerBIReporting/branch/master/graph/badge.svg?token=AO1ppJ2Lzq)](https://codecov.io/gh/TransactionProcessing/PowerBIReporting) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TransactionProcessing_PowerBIReporting&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=TransactionProcessing_PowerBIReporting) | ![Issues](https://img.shields.io/github/issues/TransactionProcessing/PowerBIReporting) | ![PullRequests](https://img.shields.io/github/issues-pr/TransactionProcessing/PowerBIReporting) |[![Repository](https://img.shields.io/badge/github-repo-green)](https://github.com/TransactionProcessing/PowerBIReporting)
-
 ## Mobile Applications
 |Repository Name|Android|iOS|Windows|MAC|Code Status | Issues|Pull Requests||
 | --- | --- | --- | --- | --- |--- |--- |--- | --- |
