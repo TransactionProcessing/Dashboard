@@ -31,7 +31,7 @@
 ## Mobile Applications
 |Repository Name|Android|iOS|Windows|MAC|Coverage |Quality | Issues|Pull Requests||
 | --- | --- | --- | --- | --- |--- |--- |--- | --- | --- |
-| **Transaction Mobile** | N/A | N/A | N/A|N/A|N/A |N/A | ![Issues](https://img.shields.io/github/issues/TransactionProcessing/TransactionMobile) | ![PullRequests](https://img.shields.io/github/issues-pr/TransactionProcessing/transactionmobile)|[![Repository](https://img.shields.io/badge/github-repo-green)](https://github.com/TransactionProcessing/TransactionMobile) |
+| **Transaction Mobile** | N/A | N/A | N/A|N/A|N/A |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/91506becb4bf4ec1b5fda551275a172e)](https://app.codacy.com/gh/TransactionProcessing/TransactionMobile/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) | ![Issues](https://img.shields.io/github/issues/TransactionProcessing/TransactionMobile) | ![PullRequests](https://img.shields.io/github/issues-pr/TransactionProcessing/transactionmobile)|[![Repository](https://img.shields.io/badge/github-repo-green)](https://github.com/TransactionProcessing/TransactionMobile) |
 
 ## Support Applications
 
