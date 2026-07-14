@@ -1,0 +1,259 @@
+{
+  "title": "Transaction Processing Dashboard",
+  "description": "This repository is a status dashboard for the Transaction Processing ecosystem. It collects the latest release tag, build health, coverage, code quality, open pull requests, and repository links for each project in one place.",
+  "legend": [
+    {
+      "label": "Latest Tag",
+      "description": "current Git tag badge from GitHub"
+    },
+    {
+      "label": "Nightly Build",
+      "description": "nightly workflow status where available"
+    },
+    {
+      "label": "Code Coverage",
+      "description": "coverage badge where available"
+    },
+    {
+      "label": "Code Quality",
+      "description": "CodeFactor badge"
+    },
+    {
+      "label": "Open PRs",
+      "description": "current open pull request count"
+    },
+    {
+      "label": "Repository",
+      "description": "direct link to the upstream repository"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Shared Services",
+      "columns": [
+        "Repository Name",
+        "Latest Tag",
+        "Nightly Build",
+        "Code Coverage",
+        "Code Quality",
+        "Open PRs",
+        "Repository"
+      ],
+      "rows": [
+        {
+          "name": "Shared",
+          "tagRepo": "TransactionProcessing/Shared",
+          "codeCoverage": null,
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/shared/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/shared"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/Shared"
+        },
+        {
+          "name": "Projections",
+          "tagRepo": "TransactionProcessing/EventStoreProjections",
+          "nightlyRepo": "TransactionProcessing/EventStoreProjections",
+          "codeCoverage": null,
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/eventstoreprojections/badge?s=1a51da1592f153d197e962ba38d9ab93eb9eabc7",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/eventstoreprojections"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/EventStoreProjections"
+        },
+        {
+          "name": "Estate Management",
+          "tagRepo": "TransactionProcessing/EstateManagement",
+          "nightlyRepo": "TransactionProcessing/EstateManagement",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/EstateManagement/branch/master/graph/badge.svg?token=DY6ZKD7J9U",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/EstateManagement"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/estatemanagement/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/estatemanagement"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/EstateManagement"
+        },
+        {
+          "name": "Messaging Service",
+          "tagRepo": "TransactionProcessing/Messaging",
+          "nightlyRepo": "TransactionProcessing/Messaging",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/Messaging/branch/master/graph/badge.svg?token=07J3EYF3K5",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/Messaging"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/messaging/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/messaging"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/Messaging"
+        },
+        {
+          "name": "Security Service",
+          "tagRepo": "TransactionProcessing/SecurityService",
+          "nightlyRepo": "TransactionProcessing/SecurityService",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/SecurityService/branch/master/graph/badge.svg?token=j5wj8VOzVu",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/SecurityService"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/securityservice/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/securityservice"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/SecurityService"
+        },
+        {
+          "name": "Callback Handler",
+          "tagRepo": "TransactionProcessing/CallbackHandler",
+          "nightlyRepo": "TransactionProcessing/CallbackHandler",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/CallbackHandler/branch/main/graph/badge.svg?token=OJ5ZWV078G",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/CallbackHandler"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/callbackhandler/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/callbackhandler"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/CallbackHandler"
+        }
+      ]
+    },
+    {
+      "title": "Transaction Processing",
+      "columns": [
+        "Repository Name",
+        "Latest Tag",
+        "Nightly Build",
+        "Code Coverage",
+        "Code Quality",
+        "Open PRs",
+        "Repository"
+      ],
+      "rows": [
+        {
+          "name": "Transaction Processor",
+          "tagRepo": "TransactionProcessing/TransactionProcessor",
+          "nightlyRepo": "TransactionProcessing/TransactionProcessor",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/TransactionProcessor/branch/master/graph/badge.svg?token=OCKVVLDM7T",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/TransactionProcessor"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/transactionprocessor/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/transactionprocessor"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/TransactionProcessor"
+        },
+        {
+          "name": "Transaction Processor ACL",
+          "tagRepo": "TransactionProcessing/TransactionProcessorACL",
+          "nightlyRepo": "TransactionProcessing/TransactionProcessorACL",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/TransactionProcessorACL/branch/master/graph/badge.svg?token=n1Q47ulbEv",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/TransactionProcessorACL"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/transactionprocessoracl/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/transactionprocessoracl"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/TransactionProcessorACL"
+        },
+        {
+          "name": "Voucher Management ACL",
+          "tagRepo": "TransactionProcessing/VoucherManagementACL",
+          "nightlyRepo": "TransactionProcessing/VoucherManagementACL",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/VoucherManagementACL/branch/master/graph/badge.svg?token=CP297T6G72",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/VoucherManagementACL"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/vouchermanagementacl/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/vouchermanagementacl"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/VoucherManagementACL"
+        },
+        {
+          "name": "File Processor",
+          "tagRepo": "TransactionProcessing/FileProcessor",
+          "nightlyRepo": "TransactionProcessing/FileProcessor",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/FileProcessor/branch/main/graph/badge.svg?token=A9JEDY4FAG",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/FileProcessor"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/fileprocessor/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/fileprocessor"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/FileProcessor"
+        }
+      ]
+    },
+    {
+      "title": "Web Applications",
+      "columns": [
+        "Repository Name",
+        "Latest Tag",
+        "Nightly Build",
+        "Code Coverage",
+        "Code Quality",
+        "Open PRs",
+        "Repository"
+      ],
+      "rows": [
+        {
+          "name": "Estate Administration UI",
+          "tagRepo": "TransactionProcessing/EstateAdministrationUI",
+          "nightlyRepo": "TransactionProcessing/EstateAdministrationUI",
+          "codeCoverage": {
+            "badgeUrl": "https://codecov.io/gh/TransactionProcessing/EstateAdministrationUI/branch/master/graph/badge.svg?token=AO1ppJ2Lzq",
+            "linkUrl": "https://codecov.io/gh/TransactionProcessing/EstateAdministrationUI"
+          },
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/estateadministrationui/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/estateadministrationui"
+          },
+          "repositoryUrl": "https://github.com/TransactionProcessing/EstateAdministrationUI"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Applications",
+      "columns": [
+        "Repository Name",
+        "Android",
+        "iOS",
+        "Windows",
+        "Mac",
+        "Code Coverage",
+        "Code Quality",
+        "Open PRs",
+        "Repository"
+      ],
+      "rows": [
+        {
+          "name": "Transaction Mobile",
+          "platforms": ["N/A", "N/A", "N/A", "N/A"],
+          "codeCoverage": "N/A",
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/transactionmobile/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/transactionmobile"
+          },
+          "openPrsRepo": "TransactionProcessing/transactionmobile",
+          "repositoryUrl": "https://github.com/TransactionProcessing/TransactionMobile"
+        },
+        {
+          "name": "Voucher Redemption Mobile",
+          "platforms": ["N/A", "N/A", "N/A", "N/A"],
+          "codeCoverage": "N/A",
+          "codeQuality": {
+            "badgeUrl": "https://www.codefactor.io/repository/github/transactionprocessing/voucherredemptionmobile/badge",
+            "linkUrl": "https://www.codefactor.io/repository/github/transactionprocessing/voucherredemptionmobile"
+          },
+          "openPrsRepo": "TransactionProcessing/voucherredemptionmobile",
+          "repositoryUrl": "https://github.com/TransactionProcessing/VoucherRedemptionMobile"
+        }
+      ]
+    }
+  ]
+}
