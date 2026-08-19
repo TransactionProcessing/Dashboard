@@ -17,7 +17,6 @@ Each entry links to release status, build status, quality, issue tracking, and t
 
 - `Latest Tag` links to the current release tag badge for each repository.
 - `Nightly Build` links to the latest nightly workflow badge where one exists.
-- `Last Commit` shows the most recent commit date on the repository's default branch in UTC.
 - `Coverage` and `Quality` use Codacy badges when available.
 - `Issues` and `Pull Requests` link directly to the corresponding GitHub pages.
 - `N/A` means the repository does not currently expose that badge or metric here.
