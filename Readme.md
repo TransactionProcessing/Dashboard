@@ -154,6 +154,8 @@ User-facing web apps and the UI layer for the estate workflows.
 Mobile app delivery and supporting quality checks.
 
 ### [Transaction Mobile](https://github.com/TransactionProcessing/TransactionMobile)
+[![Latest Tag](https://img.shields.io/github/v/tag/TransactionProcessing/TransactionMobile)](https://github.com/TransactionProcessing/TransactionMobile)
+[![Nightly Build](https://github.com/TransactionProcessing/TransactionMobile/actions/workflows/nightly_build.yml/badge.svg)](https://github.com/TransactionProcessing/TransactionMobile/actions/workflows/nightly_build.yml)
 [![Quality](https://app.codacy.com/project/badge/Grade/91506becb4bf4ec1b5fda551275a172e)](https://app.codacy.com/gh/TransactionProcessing/TransactionMobile/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Issues](https://img.shields.io/github/issues/TransactionProcessing/TransactionMobile)](https://github.com/TransactionProcessing/TransactionMobile/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/TransactionProcessing/TransactionMobile)](https://github.com/TransactionProcessing/TransactionMobile/pulls)
